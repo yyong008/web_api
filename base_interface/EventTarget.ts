@@ -8,3 +8,5 @@ let a: HTMLAllCollection = new HTMLAllCollection()
 
 // b数据类型
 let bool: boolean = new Boolean();
+
+let attr: Attr = new Attr();
