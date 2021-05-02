@@ -7,7 +7,7 @@
 - CustomEvent
 - [Document](Document.md)
 - DocumentFragment
-- DocumentTypei r
+- DocumentType
 - DOMError
 - DOMException
 - DOMImplementation
