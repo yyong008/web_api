@@ -10,3 +10,5 @@ let a: HTMLAllCollection = new HTMLAllCollection()
 let bool: boolean = new Boolean();
 
 let attr: Attr = new Attr();
+
+let characterData = new CharacterData();
