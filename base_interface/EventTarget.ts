@@ -12,3 +12,9 @@ let bool: boolean = new Boolean();
 let attr: Attr = new Attr();
 
 let characterData = new CharacterData();
+
+let domstring = new DOMStringList();
+
+let a: Element = new Element()
+
+let c: HTMLCollection = new HTMLCollection()

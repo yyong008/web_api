@@ -11,7 +11,7 @@
 - DOMError
 - DOMException
 - DOMImplementation
-- DOMString
+- DOMString (无)
 - DOMTimeStamp
 - DOMStringList
 - DOMTokenList
