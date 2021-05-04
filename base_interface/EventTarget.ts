@@ -37,3 +37,4 @@ let url: URL = new URL();
 let worker = new Worker();
 let xmldocument = new XMLDocument()
 let hTMLAnchorElement: HTMLAnchorElement = new HTMLAnchorElement()
+let htmlAreaElement: HTMLAreaElement = new HTMLAreaElement()

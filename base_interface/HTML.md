@@ -2,7 +2,7 @@
 
 HTML 相关的接口中，使用 HTMLDocument 来描述包含了 HTML 的文档。HTML 规范也是继承 [Document](./Document.md).
 
-##  HTML 元素接口
+## HTML 元素接口
 
 ### A 系列
 
@@ -37,7 +37,7 @@ HTML 相关的接口中，使用 HTMLDocument 来描述包含了 HTML 的文档�
 
 - HTMLFieldSetElement 接口 DOM fieldset元素公开HTMLFieldSetElement   （HTML 4 HTMLFieldSetElement）接口，该接口提供特殊的属性和方法（除了常规元素对象接口之外，它们还可以通过继承提供给他们）以操纵字段集元素的布局和表示。
 - HTMLFontElement 接口 不推荐使用
-- HTMLFormElement 接口可以创建和修改，·<form>` 对象； 它继承了 HTMLElement 接口的方法和属性。
+- HTMLFormElement 接口可以创建和修改，`<form>` 对象； 它继承了 HTMLElement 接口的方法和属性。
 - HTLMLFrameElement 接口
 - HTMLFrameSetElement 接口
 - HTMLHeadElement 接口
