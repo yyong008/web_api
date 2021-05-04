@@ -23,3 +23,4 @@ const callback = () => {}
 let mutationObserver = new MutationObserver(callback)
 
 let nodefilter: NodeFilter = new NodeFilter();
+let nodeInterator = new NodeIterator()
