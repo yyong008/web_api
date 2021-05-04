@@ -48,5 +48,7 @@ let html_button_element: HTMLButtonElement;
 let html_canvas_element: HTMLCanvasElement;
 let html_data_element: HTMLDataElement;
 let html_div_element: HTMLDivElement;
-let location:Location;
+let location:Location = new Location();
+let history:History = new History()
+
 
