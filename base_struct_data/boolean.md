@@ -31,5 +31,4 @@ declare var Boolean: BooleanConstructor;
 
 ## 参考
 
-
-1. https://github.com/microsoft/TypeScript/blob/master/lib/lib.es5.d.ts···
+1. https://github.com/microsoft/TypeScript/blob/master/lib/lib.es5.d.ts
