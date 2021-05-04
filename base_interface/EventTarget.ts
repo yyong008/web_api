@@ -24,3 +24,10 @@ let mutationObserver = new MutationObserver(callback)
 
 let nodefilter: NodeFilter = new NodeFilter();
 let nodeInterator = new NodeIterator()
+let nodeList: NodeList = new NodeList();
+let parentNode: ParentNode
+let processingInstruction: ProcessingInstruction
+
+let p:Promise<any> = new Promise((a: PromiseResolver) => {})
+let r: Range = new Range()
+let t: Text = new Text()

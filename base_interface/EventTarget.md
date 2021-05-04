@@ -6,8 +6,6 @@
 - 侦听器的实现
 
 注意：存在于 DOM 中，而不存在于 Nodejs 环境中。
-
-
 ## 从 lib.dom.d.ts 中查看 EventTarget
 
 ```ts

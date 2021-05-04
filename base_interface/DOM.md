@@ -28,7 +28,7 @@
 - ParentNode
 - ProcessingInstruction
 - Promise
-- PromiseResolver
+- PromiseResolver [no PromiseResolver in typescript]
 - Range
 - Text
 - TreeWalker
