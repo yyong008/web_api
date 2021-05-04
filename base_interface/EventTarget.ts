@@ -18,3 +18,8 @@ let domstring = new DOMStringList();
 let a: Element = new Element()
 
 let c: HTMLCollection = new HTMLCollection()
+
+const callback = () => {}
+let mutationObserver = new MutationObserver(callback)
+
+let nodefilter: NodeFilter = new NodeFilter();
