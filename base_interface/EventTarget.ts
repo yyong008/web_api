@@ -31,3 +31,9 @@ let processingInstruction: ProcessingInstruction
 let p:Promise<any> = new Promise((a: PromiseResolver) => {})
 let r: Range = new Range()
 let t: Text = new Text()
+
+let tw: TreeWalker = new TreeWalker();
+let url: URL = new URL();
+let worker = new Worker();
+let xmldocument = new XMLDocument()
+let hTMLAnchorElement: HTMLAnchorElement = new HTMLAnchorElement()
