@@ -7,6 +7,19 @@
 - 不从NavigatorID, NavigatorLanguage, NavigatorOnLine, NavigatorGeolocation, NavigatorPlugins, NavigatorUserMedia, 和 NetworkInformation 中继承任何属性，但是实现了定义在这些对象中的如下属性。
 - 使用只读 `window.navigator` 属性检索 navigator 对象。
 
+- MSFileSaver
+- MSNavigatorDoNotTrack
+- NavigatorAutomationInformation
+- NavigatorBeacon
+- NavigatorConcurrentHardware
+- NavigatorContentUtils
+- NavigatorCookies
+- NavigatorID
+- NavigatorLanguage
+- NavigatorOnLine
+- NavigatorPlugins
+- NavigatorStorage
+ 
 ## 从 lib.dom.d.ts 中看 Navigator
 
 ```ts

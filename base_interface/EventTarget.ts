@@ -54,3 +54,4 @@ let navigator: Navigator = new Navigator();
 let screen: Screen = new Screen();
 let touch: Touch = new Touch();
 let touchEvent: TouchEvent = new TouchEvent('')
+let TouchList: TouchList = new TouchList()
