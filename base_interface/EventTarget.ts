@@ -44,5 +44,5 @@ let HTMLBaseElement: HTMLBaseElement = new HTMLBaseElement();
 let HTMLElement = new HTMLElement();
 let htmlBodyElement: HTMLBodyElement;
 let html_br_element: HTMLBRElement;
-
+let html_button_element: HTMLButtonElement;
 

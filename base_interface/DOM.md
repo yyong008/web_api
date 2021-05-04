@@ -2,7 +2,7 @@
 
 - Attr
 - CharacterData
-- ChildNode 
+- ChildNode
 - Comment
 - CustomEvent
 - [Document](Document.md)
