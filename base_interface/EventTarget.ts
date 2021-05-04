@@ -45,4 +45,8 @@ let HTMLElement = new HTMLElement();
 let htmlBodyElement: HTMLBodyElement;
 let html_br_element: HTMLBRElement;
 let html_button_element: HTMLButtonElement;
+let html_canvas_element: HTMLCanvasElement;
+let html_data_element: HTMLDataElement;
+let html_div_element: HTMLDivElement;
+let location:Location;
 

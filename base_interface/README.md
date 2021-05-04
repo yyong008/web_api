@@ -8,3 +8,5 @@
 - Document
 - Window
 - DOM
+- Location
+  
