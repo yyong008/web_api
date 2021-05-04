@@ -39,3 +39,5 @@ let xmldocument = new XMLDocument()
 let hTMLAnchorElement: HTMLAnchorElement = new HTMLAnchorElement();
 let htmlAreaElement: HTMLAreaElement = new HTMLAreaElement();
 let htmlAudioElement: HTMLAudioElement = new HTMLAudioElement();
+
+let HTMLBaseElement: HTMLBaseElement = new HTMLBaseElement();
