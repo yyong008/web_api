@@ -50,5 +50,6 @@ let html_data_element: HTMLDataElement;
 let html_div_element: HTMLDivElement;
 let location:Location = new Location();
 let history:History = new History()
-
-
+let navigator: Navigator = new Navigator();
+let screen: Screen = new Screen();
+let touch: Touch = new Touch()
