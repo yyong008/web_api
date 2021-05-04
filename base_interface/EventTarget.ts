@@ -41,3 +41,5 @@ let htmlAreaElement: HTMLAreaElement = new HTMLAreaElement();
 let htmlAudioElement: HTMLAudioElement = new HTMLAudioElement();
 
 let HTMLBaseElement: HTMLBaseElement = new HTMLBaseElement();
+let HTMLElement = new HTMLElement();
+
