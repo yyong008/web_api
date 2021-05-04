@@ -52,4 +52,5 @@ let location:Location = new Location();
 let history:History = new History()
 let navigator: Navigator = new Navigator();
 let screen: Screen = new Screen();
-let touch: Touch = new Touch()
+let touch: Touch = new Touch();
+let touchEvent: TouchEvent = new TouchEvent('')
