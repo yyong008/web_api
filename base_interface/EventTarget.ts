@@ -56,3 +56,5 @@ let touch: Touch = new Touch();
 let touchEvent: TouchEvent = new TouchEvent('');
 let TouchList: TouchList = new TouchList();
 let html_d_list_element:  HTMLDListElement = new HTMLDListElement();
+let html_embed_element: HTMLEmbedElement = new HTMLEmbedElement();
+
