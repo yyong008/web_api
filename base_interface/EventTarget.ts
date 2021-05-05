@@ -60,3 +60,5 @@ let html_embed_element: HTMLEmbedElement = new HTMLEmbedElement();
 let html_fieldset_element: HTMLFieldSetElement = new HTMLFieldSetElement();
 let html_font_element: HTMLFontElement = new HTMLFontElement();
 let html_form_element: HTMLFormElement = new HTMLFormElement();
+let html_frame_element: HTMLFrameElement = new HTMLFrameElement();
+
