@@ -1,6 +1,6 @@
 # HTMLFieldSetElement
 
-`DOM fieldset` 元素公开 `HTMLFieldSetElement`   （`HTML 4 HTMLFieldSetElement`）接口，该接口提供特殊的属性和方法（除了常规元素对象接口之外，它们还可以通过继承提供给他们）以操纵字段集元素的布局和表示。
+`DOM fieldset` 元素公开 `HTMLFieldSetElement`（`HTML 4 HTMLFieldSetElement`）接口，该接口提供特殊的属性和方法（除了常规元素对象接口之外，它们还可以通过继承提供给他们）以操纵字段集元素的布局和表示。
 
 ## 继承关系
 
