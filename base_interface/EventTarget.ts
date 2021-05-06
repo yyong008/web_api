@@ -71,7 +71,5 @@ let html_image_element: HTMLImageElement = new HTMLImageElement();
 let image = document.createElement('img');
 let img = new Image();
 let html_input_element: HTMLInputElement = new HTMLInputElement();
+let html_map_element: HTMLMapElement = new HTMLMapElement();
 
-type IIPer = Record
-
-let a: IIPer = {};
