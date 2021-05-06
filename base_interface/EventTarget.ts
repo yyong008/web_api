@@ -64,5 +64,5 @@ let html_frame_element: HTMLFrameElement = new HTMLFrameElement();
 let html_frameset_element: HTMLFrameSetElement = new HTMLFrameSetElement();
 let html_head_element: HTMLHeadElement = new HTMLHeadElement();
 let html_heading_element: HTMLHeadingElement = new HTMLHeadingElement();
-
-
+let html_html_element: HTMLHtmlElement = new HTMLHtmlElement();
+let html_hr_element: HTMLHRElement = new HTMLHRElement();
