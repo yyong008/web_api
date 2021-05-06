@@ -67,4 +67,7 @@ let html_heading_element: HTMLHeadingElement = new HTMLHeadingElement();
 let html_html_element: HTMLHtmlElement = new HTMLHtmlElement();
 let html_hr_element: HTMLHRElement = new HTMLHRElement();
 let html_iframe_element: HTMLIFrameElement = new HTMLIFrameElement();
+let html_image_element: HTMLImageElement = new HTMLImageElement();
+let image = document.createElement('img');
+let img = new Image();
 
