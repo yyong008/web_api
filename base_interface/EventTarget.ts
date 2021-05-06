@@ -73,5 +73,7 @@ let img = new Image();
 let html_input_element: HTMLInputElement = new HTMLInputElement();
 let html_map_element: HTMLMapElement = new HTMLMapElement();
 let html_media_element: HTMLMediaElement = new HTMLMediaElement();
+let html_menu_element: HTMLMenuElement = new HTMLMenuElement();
+
 
 
