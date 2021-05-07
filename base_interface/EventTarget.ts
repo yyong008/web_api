@@ -126,4 +126,6 @@ let title_element: HTMLTitleElement = document.createElement('title')
 let html_track_title: HTMLTrackElement = new HTMLTrackElement();
 let track_title = document.createElement('track-title')
 
+let html_ul_list_element: HTMLUListElement = new HTMLUListElement();
+let ul_list_element: HTMLUListElement = document.createElement('ul');
 
