@@ -101,7 +101,7 @@ HTML 相关的接口中，使用 HTMLDocument 来描述包含了 HTML 的文档�
 - HTMLSpanElement 接口
 - HTMLStyleElement 接口
 
-### T 系列 
+### T 系列
 
 - HTMLTableElement 接口
 - HTMLTableCaptionElement 接口
