@@ -96,3 +96,5 @@ let link_style: LinkStyle;
 let html_table_element: HTMLTableElement = new HTMLTableElement();
 let table_element = document.createElement('table');
 
+let html_table_caption_element: HTMLTableCaptionElement = new HTMLTableCaptionElement();
+let table_caption_element = document.createElement('table-caption')
