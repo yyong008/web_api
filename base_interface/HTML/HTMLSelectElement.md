@@ -2,6 +2,12 @@
 
 ## 继承关系
 
+- HTMLSelectElement
+- HTMlElement
+- Element
+- Node
+- EventTarget
+
 ## 从 lib.dom.d.ts 中看  HTMLSelectElement
 
 ```ts
