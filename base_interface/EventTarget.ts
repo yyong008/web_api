@@ -87,4 +87,6 @@ let html_pre_element: HTMLPreElement = new HTMLPreElement();
 let html_progress_element: HTMLProgressElement = new HTMLProgressElement();
 let html_quote_element: HTMLQuoteElement = new HTMLQuoteElement();
 let html_script_element: HTMLScriptElement = new HTMLScriptElement();
+let html_select_element: HTMLSelectElement = new HTMLSelectElement();
+
 
