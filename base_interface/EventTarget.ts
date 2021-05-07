@@ -113,3 +113,6 @@ let table_col_element: HTMLTableColElement = document.createElement('table-col-e
 
 let html_table_row_element: HTMLTableRowElement = new HTMLTableRowElement();
 let table_row_element: HTMLTableRowElement = document.createElement('table-row-element');
+
+let html_table_section_element: HTMLTableSectionElement = new HTMLTableSectionElement();
+let table_section_element: HTMLTableSectionElement = document.createElement('table_section_element')
