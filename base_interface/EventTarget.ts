@@ -91,4 +91,5 @@ let html_select_element: HTMLSelectElement = new HTMLSelectElement();
 let html_source_element: HTMLSourceElement = new HTMLSourceElement();
 let html_span_element: HTMLSpanElement = new HTMLSpanElement();
 let html_style_element: HTMLStyleElement = new HTMLStyleElement();
+let link_style: LinkStyle = new LinkStyle()
 

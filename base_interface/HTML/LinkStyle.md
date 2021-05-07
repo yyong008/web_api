@@ -7,6 +7,14 @@
 - HTMLLinkElement
 - HTMLStyleElement
 
+## 从 lib.dom.d.ts 中看 LinkStyle
+
+```ts
+interface LinkStyle {
+    readonly sheet: CSSStyleSheet | null;
+}
+```
+
 ## 参考
 
 1. [LinkStyle MDN web docs](https://developer.mozilla.org/en-US/docs/Web/API/LinkStyle)
