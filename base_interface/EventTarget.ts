@@ -76,6 +76,4 @@ let html_media_element: HTMLMediaElement = new HTMLMediaElement();
 let html_menu_element: HTMLMenuElement = new HTMLMenuElement();
 let html_meta_element: HTMLMetaElement = new HTMLMetaElement();
 let html_meter_element: HTMLMeterElement = new HTMLMeterElement()
-
-
-
+let html_object_element: HTMLObjectElement = new HTMLObjectElement();
