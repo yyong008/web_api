@@ -98,3 +98,6 @@ let table_element = document.createElement('table');
 
 let html_table_caption_element: HTMLTableCaptionElement = new HTMLTableCaptionElement();
 let table_caption_element = document.createElement('table-caption')
+
+let html_table_cell_element:HTMLTableCellElement = new HTMLTableCellElement();
+let table_cell_element = document.createElement('table-cell')
