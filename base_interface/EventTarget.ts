@@ -83,3 +83,5 @@ let html_option_element: HTMLOptionElement = new HTMLOptionElement();
 let html_output_element: HTMLOutputElement = new HTMLOutputElement();
 let html_paragraph_element: HTMLParagraphElement = new HTMLParagraphElement();
 let html_param_element: HTMLParamElement = new HTMLParamElement();
+let html_pre_element: HTMLPreElement = new HTMLPreElement();
+
