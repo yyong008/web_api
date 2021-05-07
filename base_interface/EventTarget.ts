@@ -78,4 +78,6 @@ let html_meta_element: HTMLMetaElement = new HTMLMetaElement();
 let html_meter_element: HTMLMeterElement = new HTMLMeterElement()
 let html_object_element: HTMLObjectElement = new HTMLObjectElement();
 let html_olist_element: HTMLOListElement = new HTMLOListElement();
+let html_opt_group_element: HTMLOptGroupElement = new HTMLOptGroupElement();
+let html_option_element: HTMLOptionElement = new HTMLOptionElement();
 
