@@ -129,3 +129,5 @@ let track_title = document.createElement('track-title')
 let html_ul_list_element: HTMLUListElement = new HTMLUListElement();
 let ul_list_element: HTMLUListElement = document.createElement('ul');
 
+let html_unknown_element: HTMLUnknownElement = new HTMLUnknownElement();
+let unknown_element: HTMLUnknownElement = document.createElement('html-unknown')
