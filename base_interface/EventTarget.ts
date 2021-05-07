@@ -81,4 +81,4 @@ let html_olist_element: HTMLOListElement = new HTMLOListElement();
 let html_opt_group_element: HTMLOptGroupElement = new HTMLOptGroupElement();
 let html_option_element: HTMLOptionElement = new HTMLOptionElement();
 let html_output_element: HTMLOutputElement = new HTMLOutputElement();
-
+let html_paragraph_element: HTMLParagraphElement = new HTMLParagraphElement();
