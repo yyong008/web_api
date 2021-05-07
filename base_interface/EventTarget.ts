@@ -119,3 +119,6 @@ let table_section_element: HTMLTableSectionElement = document.createElement('tab
 
 let html_time_element: HTMLTimeElement = new HTMLTimeElement();
 let time_element: HTMLTimeElement = new HTMLTimeElement();
+
+let html_title_element: HTMLTitleElement = new HTMLTitleElement();
+let title_element: HTMLTitleElement = new HTMLTitleElement();
