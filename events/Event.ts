@@ -1,0 +1,1 @@
+const evt: Event = new Event('go')
