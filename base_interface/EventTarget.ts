@@ -110,3 +110,6 @@ let table_header_cell_element: HTMLTableHeaderCellElement = document.createEleme
 
 let html_table_col_element: HTMLTableColElement = new HTMLTableColElement();
 let table_col_element: HTMLTableColElement = document.createElement('table-col-element');
+
+let html_table_row_element: HTMLTableRowElement = new HTMLTableRowElement();
+let table_row_element: HTMLTableRowElement = document.createElement('table-row-element');
