@@ -121,4 +121,9 @@ let html_time_element: HTMLTimeElement = new HTMLTimeElement();
 let time_element: HTMLTimeElement = new HTMLTimeElement();
 
 let html_title_element: HTMLTitleElement = new HTMLTitleElement();
-let title_element: HTMLTitleElement = new HTMLTitleElement();
+let title_element: HTMLTitleElement = document.createElement('title')
+
+let html_track_title: HTMLTrackElement = new HTMLTrackElement();
+let track_title = document.createElement('track-title')
+
+
