@@ -131,3 +131,6 @@ let ul_list_element: HTMLUListElement = document.createElement('ul');
 
 let html_unknown_element: HTMLUnknownElement = new HTMLUnknownElement();
 let unknown_element: HTMLUnknownElement = document.createElement('html-unknown')
+
+let html_video_element: HTMLVideoElement = new HTMLVideoElement();
+let video_element: HTMLVideoElement = document.createElement('video');
