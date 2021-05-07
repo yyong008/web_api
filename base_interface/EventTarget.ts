@@ -85,3 +85,4 @@ let html_paragraph_element: HTMLParagraphElement = new HTMLParagraphElement();
 let html_param_element: HTMLParamElement = new HTMLParamElement();
 let html_pre_element: HTMLPreElement = new HTMLPreElement();
 let html_progress_element: HTMLProgressElement = new HTMLProgressElement();
+let html_quote_element: HTMLQuoteElement = new HTMLQuoteElement();
