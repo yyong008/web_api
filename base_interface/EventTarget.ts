@@ -117,3 +117,5 @@ let table_row_element: HTMLTableRowElement = document.createElement('table-row-e
 let html_table_section_element: HTMLTableSectionElement = new HTMLTableSectionElement();
 let table_section_element: HTMLTableSectionElement = document.createElement('table_section_element')
 
+let html_time_element: HTMLTimeElement = new HTMLTimeElement();
+let time_element: HTMLTimeElement = new HTMLTimeElement();
