@@ -103,4 +103,8 @@ let html_table_cell_element:HTMLTableCellElement = new HTMLTableCellElement();
 let table_cell_element = document.createElement('table-cell')
 
 let html_table_data_cell_element: HTMLTableDataCellElement = new HTMLTableDataCellElement();
-let table_data_cell_element = document.createElement('table_data_cell_element')
+let table_data_cell_element = document.createElement('table_data_cell_element');
+
+let  html_table_header_cell_element: HTMLTableDataCellElement = new HTMLTableHeaderCellElement();
+let table_header_cell_element: HTMLTableHeaderCellElement = document.createElement('table-header-cell-element');
+
