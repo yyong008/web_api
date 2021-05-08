@@ -3,3 +3,5 @@ document.dispatchEvent(evt); // 使用 dispatchEvent 方法派发的是 Event �
 
 const div = document.createElement('div');
 div.dispatchEvent(evt);
+
+const animationEvent: AnimationEvent = new AnimationEvent('goAni');
