@@ -10,3 +10,4 @@ let blobEvent: Blob = new BlobEvent()
 
 let ClipboardEvent: ClipboardEvent = new ClipboardEvent();
 
+var event = new CloseEvent(typeArg, closeEventInit);
