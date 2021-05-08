@@ -2,6 +2,22 @@
 
 该Event接口表示在DOM中发生的事件。
 
+## 构造函数
+
+```ts
+const event = new Event(typeAtg, eventInit)
+```
+
+## 简单的示例
+
+```ts
+const evt: Event = new Event('go', {bubbles: true, cancelable: false});
+document.dispatchEvent(evt); // 使用 dispatchEvent 方法派发的是 Event 的实例
+
+const div = document.createElement('div'); // 使用非 document
+div.dispatchEvent(evt);
+```
+
 ## 从 lib.dom.d.ts 中看 Event
 
 ```ts
