@@ -5,3 +5,5 @@ const div = document.createElement('div');
 div.dispatchEvent(evt);
 
 const animationEvent: AnimationEvent = new AnimationEvent('goAni');
+
+let blobEvent: Blob = new BlobEvent()
