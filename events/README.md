@@ -62,7 +62,7 @@ declare var Event: {
 ### A 系列
 
 - AnimationEvent
-- AudioProcessingEvent
+- AudioProcessingEvent // 已经被放弃
 
 ### B 系列
 
