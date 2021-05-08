@@ -7,3 +7,6 @@ div.dispatchEvent(evt);
 const animationEvent: AnimationEvent = new AnimationEvent('goAni');
 
 let blobEvent: Blob = new BlobEvent()
+
+let ClipboardEvent: ClipboardEvent = new ClipboardEvent();
+
