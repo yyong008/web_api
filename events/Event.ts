@@ -12,4 +12,6 @@ let ClipboardEvent: ClipboardEvent = new ClipboardEvent();
 
 var event = new CloseEvent(typeArg, closeEventInit);
 
-var composition: CompositionEvent = new CompositionEvent()
+var composition: CompositionEvent = new CompositionEvent('');
+
+var event: CustomEvent = new CustomEvent('go');

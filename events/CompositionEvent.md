@@ -63,3 +63,4 @@ const myComponentEvent = new CompositionEvent(typeArg , CompositionEventInit)
 ## 参考
 
 1. [CompositionEvent MDN web docs](https://developer.mozilla.org/en-US/docs/Web/API/CompositionEvent/CompositionEvent)
+2. [what-is-javascripts-compositionevent-please-give-examples)](https://stackoverflow.com/questions/51226598/what-is-javascripts-compositionevent-please-give-examples)
