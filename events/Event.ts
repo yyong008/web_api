@@ -19,3 +19,7 @@ var event: CustomEvent = new CustomEvent('go');
 var deviceMotionEvent = new DeviceMotionEvent('x')
 
 var deviceOrientationEvent = new DeviceOrientationEvent('')
+
+event = new DragEvent('');
+
+var dataTrans = new DataTransfer()
