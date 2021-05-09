@@ -25,3 +25,5 @@ event = new DragEvent('');
 var dataTrans = new DataTransfer();
 
 var focusEvent = new FocusEvent('');
+
+var gamepadEvent = new GamepadEvent('')
