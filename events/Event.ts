@@ -17,3 +17,5 @@ var composition: CompositionEvent = new CompositionEvent('');
 var event: CustomEvent = new CustomEvent('go');
 
 var deviceMotionEvent = new DeviceMotionEvent('x')
+
+var deviceOrientationEvent = new DeviceOrientationEvent('')
