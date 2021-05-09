@@ -23,3 +23,5 @@ var deviceOrientationEvent = new DeviceOrientationEvent('')
 event = new DragEvent('');
 
 var dataTrans = new DataTransfer();
+
+var focusEvent = new FocusEvent('');
