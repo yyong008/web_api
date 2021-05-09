@@ -27,3 +27,5 @@ var dataTrans = new DataTransfer();
 var focusEvent = new FocusEvent('');
 
 var gamepadEvent = new GamepadEvent('')
+
+var idbVersionChangeEvent = new IDBVersionChangeEvent();
