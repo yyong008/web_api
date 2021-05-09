@@ -14,6 +14,19 @@ DOMCompositionEvent 表示由于用户间接输入文本而发生的事件。
 - compositionupdate
 - compositionend
 
+## 从 lib.dom.d.ts 中看 CompositionEvent
+
+```ts
+interface CompositionEvent extends UIEvent {
+    readonly data: string;
+}
+
+declare var CompositionEvent: {
+    prototype: CompositionEvent;
+    new(type: string, eventInitDict?: CompositionEventInit): CompositionEvent;
+};
+```
+
 ## 简单示例
 
 ```ts
