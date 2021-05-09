@@ -29,3 +29,5 @@ var focusEvent = new FocusEvent('');
 var gamepadEvent = new GamepadEvent('')
 
 var idbVersionChangeEvent = new IDBVersionChangeEvent();
+
+event = new InputEvent(typeArg, inputEventInit);
