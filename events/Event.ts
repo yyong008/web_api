@@ -15,3 +15,5 @@ var event = new CloseEvent(typeArg, closeEventInit);
 var composition: CompositionEvent = new CompositionEvent('');
 
 var event: CustomEvent = new CustomEvent('go');
+
+var deviceMotionEvent = new DeviceMotionEvent('x')
