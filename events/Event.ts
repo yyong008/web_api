@@ -22,4 +22,4 @@ var deviceOrientationEvent = new DeviceOrientationEvent('')
 
 event = new DragEvent('');
 
-var dataTrans = new DataTransfer()
+var dataTrans = new DataTransfer();
