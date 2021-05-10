@@ -33,3 +33,5 @@ var idbVersionChangeEvent = new IDBVersionChangeEvent();
 event = new InputEvent(typeArg, inputEventInit);
 
 event = new KeyboardEvent(typeArg, KeyboardEventInit);
+
+var messageEvent = new MessageEvent(type, init);
