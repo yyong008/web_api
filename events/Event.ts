@@ -35,3 +35,5 @@ event = new InputEvent(typeArg, inputEventInit);
 event = new KeyboardEvent(typeArg, KeyboardEventInit);
 
 var messageEvent = new MessageEvent(type, init);
+
+let event = new MouseEvent(typeArg, mouseEventInit);
