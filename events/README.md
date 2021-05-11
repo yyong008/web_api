@@ -153,7 +153,7 @@ declare var Event: {
 
 - TimeEvent
 - TouchEvent
-- TrackEvent
+- TrackEvet
 - TransitionEvent
   
 ### U 系列
