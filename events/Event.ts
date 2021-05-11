@@ -44,3 +44,5 @@ var OverconstrainedError = new OverconstrainedError()
 
 
 var paymentRequestUpdateEvent = new PaymentRequestUpdateEvent()
+
+let event = new PointerEvent(type, PointerEventInit);
