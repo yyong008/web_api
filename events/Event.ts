@@ -41,3 +41,6 @@ let event = new MouseEvent(typeArg, mouseEventInit);
 var offlineAudioCompletionEvent = new OfflineAudioCompletionEvent(type, init)
 
 var OverconstrainedError = new OverconstrainedError()
+
+
+var paymentRequestUpdateEvent = new PaymentRequestUpdateEvent()
