@@ -7,6 +7,16 @@
 - UIEvent
 - Event
 
+## 继承 UIEvent 的事件
+
+- MouseEvent
+- TouchEvent
+- FocusEvent
+- KeyboardEvent
+- WheelEvent
+- InputEvent
+- CompositionEvent
+
 ## 基本示例
 
 ```ts
