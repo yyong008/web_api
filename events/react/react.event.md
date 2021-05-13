@@ -143,6 +143,26 @@ let type = event.type
    2. e.preventDefault
    3. 代替
 
+## React 支持的事件
+
+1. Clipboard Events 剪贴板事件
+2. Composition Events 事件
+3. Keyboard Events 键盘事件
+4. Focus Events 聚焦事件
+5. Form Events 表单事件
+6. Generic Events
+7. Mouse Events 鼠标事件
+8. Pointer Events 指针事件
+9. Selection Events
+10. Touch Events 触摸事件
+11. UI Events
+12. Wheel Events 滚轮事件
+13. Media Events 媒体事件
+14. Image Events 图片事件
+15. Animation Events 动画事件
+16. Transition Events 过渡事件
+17. Other Events 其他事件
+
 ## 参考
 
 1. [事件处理程序](https://react.docschina.org/docs/handling-events.html)
