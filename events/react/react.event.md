@@ -76,7 +76,7 @@ if (e.defaultPrevented) {
 - isDefaultPrevented 默认事件被阻止
 - stopPropagation() 阻止冒泡
 - isPropagationStopped() 是否调用了阻止冒泡
-- persist 在 React 当中，SyntheticEvent 在调用事件回调之后，该对象将被重用。并所有的属性将无效。如果要以异步方式问事件属性，则应该调用 event.presist() 事件，这将从从事件池中删除事件，并允许用户代码保留对该事件的引用。
+- persist() 在 React 当中，SyntheticEvent 在调用事件回调之后，该对象将被重用。并所有的属性将无效。如果要以异步方式问事件属性，则应该调用 event.presist() 事件，这将从从事件池中删除事件，并允许用户代码保留对该事件的引用。
 
 ```ts
 function onClick(event) {
@@ -91,6 +91,27 @@ function onClick(event) {
 
   this.setState({clickEvent: event}); // no work
   this.setState({eventType: event.type}); //
+}
+```
+
+- target DOMEventTarget
+
+触发事件的对象的引用。当前事件处理程序在冒泡或捕获阶段被调用，它与 event.currentTarget 不同
+
+```ts
+let ul = document.createElement('ul');
+document.body.appendChild(ul);
+
+let li1 = document.createElement('li');
+let li2 = document.createElement('li');
+
+ul.appendChild(li1);
+ul.appendChild(li2);
+
+function hide(e) {
+  e.target.style.visibility = 'hidden';
+
+  ul.addEventListener('click', hide, false)
 }
 ```
 
