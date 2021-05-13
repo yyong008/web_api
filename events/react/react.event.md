@@ -146,22 +146,166 @@ let type = event.type
 ## React 支持的事件
 
 1. Clipboard Events 剪贴板事件
+   1. onCopy
+   2. onCut
+   3. onPaste
+   4. DOMDataTransfer
+   5. clipboardData
 2. Composition Events 事件
+   1. onCompositionEnd
+   2. onCompositionStart
+   3. onCompositionUpdate
+   4. string
+   5. data
 3. Keyboard Events 键盘事件
+   1. onKeyDown
+   2. onKeyPress
+   3. onKeyUp
+   4. boolean altKey
+   5. number charCode
+   6. boolean ctrlKey
+   7. boolean getModifierState(key)
+   8. string key
+   9. number keyCode
+   10. string locale
+   11. number location
+   12. boolean metaKey
+   13. boolean repeat
+   14. boolean shiftKey
+   15. number which
 4. Focus Events 聚焦事件
+   1. onFocus onBlur
+   2. DOMEventTarget
+   3. relatedTarget
 5. Form Events 表单事件
+   1. onChange
+   2. onInput
+   3. onInvalid
+   4. onReset
+   5. onSubmit
 6. Generic Events
+   1. onError
+   2. onLoad
 7. Mouse Events 鼠标事件
+   1. onClick
+   2. onContextMenu
+   3. onDoubleClick
+   4. onDrag
+   5. onDragEnd
+   6. onDragEnter
+   7. onDragExit
+   8. onDragLeave
+   9. onDragOver
+   10. onDragStart
+   11. onDrop
+   12. onMouseDown
+   13. onMouseEnter
+   14. onMouseLeave
+   15. onMouseMove
+   16. onMouseOut
+   17. onMouseOver
+   18. onMouseUp
+   19. boolean altKey
+   20. number button
+   21. number buttons
+   22. number clientX
+   23. number clientY
+   24. boolean ctrlKey
+   25. boolean getModifierState(key)
+   26. boolean metaKey
+   27. number pageX
+   28. number pageY
+   29. DOMEventTarget relatedTarget
+   30. number screenX
+   31. number screenY
+   32. boolean shiftKey
 8. Pointer Events 指针事件
+   1. onPointerDown
+   2. onPointerMove
+   3. onPointerUp
+   4. onPointerCancel
+   5. onGotPointerCapture
+   6. onLostPointerCapture
+   7. onPointerEnter
+   8. onPointerLeave
+   9. onPointerOver
+   10. onPointerOut
+   11. number pointerId
+   12. number width
+   13. number height
+   14. number pressure
+   15. number tangentialPressure
+   16. number tiltX
+   17. number tiltY
+   18. number twist
+   19. string pointerType
+   20. boolean isPrimary
 9. Selection Events
+    1. onSelect
 10. Touch Events 触摸事件
+    1. onTouchCancel
+    2. onTouchEnd
+    3. onTouchMove
+    4. onTouchStart
+    5. boolean altKey
+    6. DOMTouchList changedTouches
+    7. boolean ctrlKey
+    8. boolean getModifierState(key)
+    9. boolean metaKey
+    10. boolean shiftKey
+    11. DOMTouchList targetTouches
+    12. DOMTouchList touches
 11. UI Events
+    1. onScroll
+    2. number detail
+    3. DOMAbstractView view
 12. Wheel Events 滚轮事件
+    1. onWheel
+    2. number deltaMode
+    3. number deltaX
+    4. number deltaY
+    5. number deltaZ
 13. Media Events 媒体事件
+    1. onAbort
+    2. onCanPlay
+    3. onCanPlayThrough
+    4. onDurationChange
+    5. onEmptied
+    6. onEncrypted
+    7. onEnded
+    8. onError
+    9. onLoadedData
+    10. onLoadedMetadata
+    11. onLoadStart
+    12. onPause
+    13. onPlay
+    14. onPlaying
+    15. onProgress
+    16. onRateChange
+    17. onSeeked
+    18. onSeeking
+    19. onStalled
+    20. onSuspend
+    21. onTimeUpdate
+    22. onVolumeChange
+    23. onWaiting
 14. Image Events 图片事件
+    1. onLoad
+    2. onError
 15. Animation Events 动画事件
+    1. onAnimationStart
+    2. onAnimationEnd
+    3. onAnimationIteration
+    4. string animationName
+    5. string pseudoElement
+    6. float elapsedTime
 16. Transition Events 过渡事件
+    1. onTransitionEnd
+    2. string propertyName
+    3. string pseudoElement
+    4. float elapsedTime
 17. Other Events 其他事件
+    1. onToggle
 
 ## 参考
 
