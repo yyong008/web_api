@@ -121,6 +121,12 @@ function hide(e) {
 let number = event.timeStamp;
 ```
 
+- type
+
+```ts
+let type = event.type
+```
+
 ## 理解 React 事件
 
 - 事件注册
