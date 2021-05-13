@@ -115,6 +115,12 @@ function hide(e) {
 }
 ```
 
+- timeStamp
+
+```ts
+let number = event.timeStamp;
+```
+
 ## 理解 React 事件
 
 - 事件注册
