@@ -135,6 +135,14 @@ let type = event.type
 - 事件分发
 - 事件执行
 
+## 注意
+
+1. persis() 方法将不在生效， SyntheticEvent 不在加入事件池中。
+2. 事件处理程器返回 false 时，不在阻止事件传递，可以使用
+   1. e.stopPropagation
+   2. e.preventDefault
+   3. 代替
+
 ## 参考
 
 1. [事件处理程序](https://react.docschina.org/docs/handling-events.html)
