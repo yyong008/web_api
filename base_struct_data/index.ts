@@ -13,3 +13,5 @@ let arr_like: ArrayLike<any> =[{1: 123}, {length: 1}]
 // promise like
 let pl: PromiseLike<any>;
 let plc: PromiseConstructorLike;
+
+let num: number = Number(123)
