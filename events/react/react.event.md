@@ -19,7 +19,7 @@ React 自己实现了一套 `注册`、`存储`、`分发`和 `重用逻辑`，�
 
 ## 合成对象属性
 
-```ts
+```typescript
 const EventInterface = {
   eventPhase: 0,
   bubbles: 0,
@@ -40,7 +40,7 @@ const EventInterface = {
 - cancelable -> boolean 事件是否可以取消
 - DOMEventTarget -> currentTarget 表示当事件沿着 DOM 触发时事件的当前目标。它总是指向事件绑定的元素
 
-```ts
+```typescript
 function hide(e) {
   e.currentTarget.style.visiability = "hidden";
   console.log(e.currentTarget);
@@ -58,7 +58,7 @@ document.body.addEventListener('click', hide, false);
 
 - defaultPrevented -> boolean， 当前事件是否调用了 event.preventDefaul() 方法
 
-```ts
+```typescript
 if (e.defaultPrevented) {
   // 是否调用了 defaultPrevented
 }
@@ -78,7 +78,7 @@ if (e.defaultPrevented) {
 - isPropagationStopped() 是否调用了阻止冒泡
 - persist() 在 React 当中，SyntheticEvent 在调用事件回调之后，该对象将被重用。并所有的属性将无效。如果要以异步方式问事件属性，则应该调用 event.presist() 事件，这将从从事件池中删除事件，并允许用户代码保留对该事件的引用。
 
-```ts
+```typescript
 function onClick(event) {
   console.log(event); // nullified object
   console.log(event.type) // 'click'
@@ -98,7 +98,7 @@ function onClick(event) {
 
 触发事件的对象的引用。当前事件处理程序在冒泡或捕获阶段被调用，它与 event.currentTarget 不同
 
-```ts
+```typescript
 let ul = document.createElement('ul');
 document.body.appendChild(ul);
 
@@ -117,13 +117,13 @@ function hide(e) {
 
 - timeStamp
 
-```ts
+```typescript
 let number = event.timeStamp;
 ```
 
 - type
 
-```ts
+```typescript
 let type = event.type
 ```
 
