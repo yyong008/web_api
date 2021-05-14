@@ -9,3 +9,16 @@ formData 主要用于表单数据的处理，能将表单数据处理为简单�
 ```js
 var formData = new FormData(form);
 ```
+
+## formData 的增删改查
+
+- append
+- delete
+- entries
+- get
+- getAll
+- has
+- keys
+- set
+- values
+- forEach
