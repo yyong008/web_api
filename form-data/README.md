@@ -22,3 +22,5 @@ var formData = new FormData(form);
 - set
 - values
 - forEach
+
+注意：不同的浏览器的增删改查的支持情况是不一样的
