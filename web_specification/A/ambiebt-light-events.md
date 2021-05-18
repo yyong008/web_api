@@ -22,3 +22,7 @@ if ('ondevicelight' in window) {
     console.log('devicelight event not supported');
 }
 ```
+
+## 参考
+
+1. [DeviceLightEvent MDN web api](https://developer.mozilla.org/en-US/docs/Web/API/DeviceLightEvent)
