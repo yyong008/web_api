@@ -17,7 +17,7 @@
 ## 不同的文档 Document 类型
 
 - HTML
-- XML
+e XML
 - SVG
 - ...
 
