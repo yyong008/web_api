@@ -4,3 +4,15 @@
 - ProximitySensor
 - AmbientLightSensor
 - Accelerometer
+
+- AbsoluteOrientationSensor
+- Accelerometer
+- AmbientLightSensor
+- GraitySensor
+- Gyroscope
+- LinearAccelerationSensor
+- Magnetometer
+- OrientationSensor
+- RelativeOrientationSensor
+- Sensor
+- SensorErrorEvent
